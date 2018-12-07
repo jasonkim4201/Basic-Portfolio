@@ -15,6 +15,7 @@ body {
   float: right;
 
 }
+/* Probably should have used something other than relative position. Everything becomes out of place when browser page size is changed. */
 .link1 {
   position: relative;
   right: 475px;
@@ -54,10 +55,6 @@ header {
   left: 10px;
 }
 
-#bio {
- 
-}
-
 h1 {
   color: rgb(92, 219, 177);
   font-size: 30px;
@@ -71,5 +68,13 @@ h1 {
   background-color: rgba(5, 5, 5, 0.568);
   color: white;
   margin-top: 175px;
+  height: 100px;
+}
+
+.footerc {
+  text-align: center;
+  background-color: rgba(5, 5, 5, 0.568);
+  color: white;
+  margin-top: 166px;
   height: 100px;
 }
