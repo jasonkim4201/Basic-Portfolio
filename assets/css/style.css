@@ -1,0 +1,45 @@
+/* Try adding a css reset to see if it get rid of the leftover grey color stuff*/
+
+body {
+  background-color: silver;
+}
+
+.top {
+  background-color: white;
+}
+
+/* Links to the other pages */
+.link1,
+.link2,
+.link3 {
+  float: right;
+
+}
+
+/* Where my name is */
+header {
+  background-color: rgb(92, 219, 177);
+  width: 120px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  left: 200px;
+}
+
+.content {
+  background: white;
+  position: relative;
+  left: 200px;
+  width: 960px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: rgb(92, 219, 177);
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  left: 20px;
+}
