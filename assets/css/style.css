@@ -1,4 +1,4 @@
-/* Try adding a css reset to see if it get rid of the leftover grey color stuff*/
+/* Try adding a css reset to see if it get rid of the leftover grey color stuff. Looks like it's working.*/
 
 body {
   background-color: silver;
@@ -15,7 +15,20 @@ body {
   float: right;
 
 }
+.link1 {
+  position: relative;
+  right: 475px;
+}
 
+.link2 {
+  position: relative;
+  right: 330px;
+}
+
+.link3 {
+  position: relative;
+  right: 185px;
+}
 /* Where my name is */
 header {
   background-color: rgb(92, 219, 177);
@@ -25,15 +38,24 @@ header {
   font-weight: bold;
   font-size: 25px;
   position: relative;
-  left: 200px;
+  left: 300px;
 }
-
+/* That area in the html where I say stuff about myself. */
 .content {
   background: white;
   position: relative;
-  left: 200px;
+  left: 300px;
   width: 960px;
   margin-top: 20px;
+}
+
+.pic {
+  position: relative;
+  left: 10px;
+}
+
+#bio {
+ 
 }
 
 h1 {
@@ -42,4 +64,12 @@ h1 {
   font-weight: bold;
   position: relative;
   left: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(5, 5, 5, 0.568);
+  color: white;
+  margin-top: 175px;
+  height: 100px;
 }
